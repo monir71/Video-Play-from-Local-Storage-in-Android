@@ -1,6 +1,6 @@
 Additional Linear Layout has been added for correct positioning of MediaController. See here:
 
-
+```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -28,13 +28,13 @@ Additional Linear Layout has been added for correct positioning of MediaControll
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
+```
 We created a raw named Resource Directory in res folder and pasted the video there.
 
 
 Main Activity:
 
-
+```
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -62,3 +62,4 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 }
+```
